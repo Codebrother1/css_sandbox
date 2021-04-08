@@ -6,10 +6,63 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Box Model / Margin & Padding</title>
   <style>
-    
+    /* CSS RESET */
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .box{
+      background: #f4f4f4;
+      border: 2px #777 solid;
+      width: 500px;
+
+      /* Padding on all sides */
+      padding: 20px;
+
+
+      /* padding per side */
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+
+      /* padding short hand = top right bottome left */
+      padding: 10px 20px 10px 20px;
+
+      /* padding shorthand top/bottom left/right */
+      padding: 10px 20px;
+
+      /* margin on all sides */
+      margin: 20px;
+
+     /* margin per side */
+      margin-top: 10px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+
+      /* margin short hand = top right bottome left */
+      margin: 10px 20px 10px 20px;
+
+      /* margin shorthand top/bottom left/right */
+      margin: 10px 20px;
+          
+
+    }
+  
   </style>
 </head>
 <body>
-  
+  <div class="box">
+    <h3>Box One</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quidem odit impedit tempore enim voluptates rem ratione laudantium voluptatibus corrupti.</p>
+  </div>
+
+  <div class="box">
+    <h3>Box Two</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quidem odit impedit tempore enim voluptates rem ratione laudantium voluptatibus corrupti.</p>
+  </div>
+
 </body>
 </html>
